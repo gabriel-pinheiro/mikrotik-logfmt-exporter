@@ -1,0 +1,33 @@
+{
+  "name": "mikrotik-logfmt-exporter",
+  "version": "1.0.0",
+  "description": "Export MikroTik logs in the logfmt format for Loki, fluentd, fluentbit",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-pinheiro/mikrotik-logfmt-exporter.git"
+  },
+  "keywords": [
+    "mikrotik",
+    "logfmt",
+    "loki",
+    "fluentd",
+    "fluentbit"
+  ],
+  "author": "Gabriel Pinheiro <gabrielctpinheiro@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gabriel-pinheiro/mikrotik-logfmt-exporter/issues"
+  },
+  "homepage": "https://github.com/gabriel-pinheiro/mikrotik-logfmt-exporter#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "logfmt": "^1.3.2",
+    "syslog-server": "^1.0.1"
+  }
+}
