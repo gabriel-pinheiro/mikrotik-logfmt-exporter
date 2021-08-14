@@ -17,3 +17,6 @@ server.start({
     port: process.env.SERVER_PORT || 514,
     address: process.env.SERVER_ADDRESS || '0.0.0.0',
 });
+
+process.on('SIGINT',  () => server.stop());
+process.on('SIGTERM', () => server.stop());
